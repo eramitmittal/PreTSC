@@ -14,3 +14,8 @@ By integrating this project in the build tool chain, a variety of use cases can 
 -- Logging framework (pre-build step can be written to inject required logger tied to current class name)
 - Dependency injection framework (pre-build step can be written to parse typescript files and dump meta information about the interfaces to a separate json file. This json file can then be used by a decorator (e.g. @inject) to inject concrete implementations in place of the mentioned interface)
 - And many more...Please feel free to add more use cases if you come across any
+
+
+
+Note 1: In the first cut I will not support tsc watch mode
+Note 2: I am open to suggestions on the api front and implemetation in general
