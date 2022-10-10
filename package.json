@@ -1,0 +1,27 @@
+{
+  "name": "pretsc",
+  "version": "1.0.0",
+  "description": "Pre-build step for TypeScript Compiler (TSC)",
+  "main": "pretsc.js",
+  "bin": "./bin/pretsc",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eramitmittal/PreTSC.git"
+  },
+  "keywords": [
+    "TSC",
+    "typescript-compiler",
+    "typescript",
+    "compiler",
+    "pre-build"
+  ],
+  "author": "Amit Mittal",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/eramitmittal/PreTSC/issues"
+  },
+  "homepage": "https://github.com/eramitmittal/PreTSC#readme",
+  "peerDependencies": {
+    "typescript": ">=2.1.0"
+  }
+}
