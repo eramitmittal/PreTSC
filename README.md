@@ -29,7 +29,8 @@ By integrating this project in the build tool chain, a variety of use cases can 
             program.getSourceFiles().forEach((sfNode) => {
                 const modifiedContent = ...//process the file
                 if(modifiedContent) {
-                    inMemoryFS.addFile(sfNode.fileName, modifiedContent); //this content will be used for compilation of this file instead of the original content from disk
+                    //tell pretsc to use the modified content instead of the original file from disk
+                    inMemoryFS.addFile(sfNode.fileName, modifiedContent);
                 }
             }
         }
