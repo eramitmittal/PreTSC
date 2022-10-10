@@ -17,5 +17,5 @@ By integrating this project in the build tool chain, a variety of use cases can 
 
 
 
-Note 1: In the first cut I will not support tsc watch mode
-Note 2: I am open to suggestions on the api front and implemetation in general
+# Note 1: In the first cut I will not support tsc watch mode
+# Note 2: I am open to suggestions on the api front and implemetation in general
