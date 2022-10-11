@@ -1,6 +1,6 @@
 {
   "name": "pretsc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Pre-build step for TypeScript Compiler (TSC)",
   "main": "pretsc.js",
   "bin": "./bin/pretsc",
