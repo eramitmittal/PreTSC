@@ -8,6 +8,7 @@
     "type": "git",
     "url": "git+https://github.com/eramitmittal/PreTSC.git"
   },
+  "files": ["**/*", "!package-lock.json", "!.git/**", "!.gitignore"],
   "keywords": [
     "TSC",
     "typescript-compiler",
